@@ -1668,7 +1668,7 @@ BOOL _recordRequested = NO;
 
 - (void)setupOrDisableBarcodeDetector
 {
-    if (self.canDetectBarcodes && [self.barcodeDetector isRealDetector]){
+    if (self.canDetectBarcodes && true){
         AVCaptureSessionPreset preset = [self getDefaultPresetVideo];
 
         self.session.sessionPreset = preset;
